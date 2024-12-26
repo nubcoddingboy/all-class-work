@@ -1,0 +1,294 @@
+/* all common css start */
+
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+
+a,a:hover{
+    display: inline-block;
+    text-decoration: none;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+
+body{
+    scroll-behavior: smooth;
+}
+
+/* all common css end */
+
+
+/* Navbar Menu start */
+             /* stickyHeder menu scrolling sart */
+
+             .navbar{
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                background-color: aquamarine;
+             }
+
+             .stickyheader{
+                background: teal;
+                animation: emon 1s;
+                }
+                @keyframes emon{
+                from{
+                top: -100px;
+                }
+                to{
+                top: 0;
+                }
+                }
+             /* stickyHeder menu scrolling end */
+/* Navbar Menu end */
+/* ================================================== */
+
+/* back to top start */
+.back-to-top{
+    font-size: 30px;
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+}
+/* back to top end */
+
+/* =========================================== */
+
+/* banner part start */
+
+#one{
+    margin-top: 100px;
+}
+
+.banner{
+    padding: 20px 20px;
+    background: tan;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.banner h5{
+    padding: 20px 0;
+}
+.banner h2{
+    padding: 20px 0;
+}
+.banner p{
+    padding: 20px 0px;
+    padding-right: 150px;
+    line-height: 25px;
+}
+button{
+    margin-top: 20px;
+    border-radius: 5px;
+}
+button a{
+    padding: 15px 15px;
+    display: inline-block;
+
+}
+
+.imagely{
+  text-align: center;
+  margin-top: 10px;
+}
+.imagely img{
+    height: 380px; 
+   
+}
+/* banner part end */
+/* ================================================== */
+
+
+/* service  Part Part start */
+.ServicePart{
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.serviceimagePart{
+    padding: 50px 0;
+}
+/* service  Part Part end */
+/* =========================================================== */
+/* Desgin Part start */
+.desginImgPart{
+    padding: 70px 0;
+    text-align: center;
+}
+.desginImgPart img{
+    padding: 20px 0;
+}
+.desginTextPart h2{
+    padding: 10px 0;
+}
+.desginTextPart p{
+    padding: 10px 0;
+    line-height: 25px;
+}
+/* Desgin Part end */
+
+/* ======================================================= */
+
+/* work part start */
+.workimg img{
+padding: 10px 0;
+border-radius: 20px;
+}
+
+.workText h5{
+    padding: 5px 0;
+}
+.workText p{
+    padding: 5px 0;
+}
+
+
+/* work part end */
+
+/* ========================================================== */
+
+/* testimonial Part start */
+
+#five{
+    margin-top: 50px;
+}
+
+.testimonial{
+    
+    display: flex;
+    
+}
+
+.testimonialtext P{
+    padding: 30px 0;
+    line-height: 27px;
+}
+.client{
+    display: flex;
+    
+
+}
+
+.testimonialimg{
+    padding-right: 20px;
+}
+
+.clientrating h5{
+    margin-left: 10px;
+    padding: 10px 0;
+   
+}
+
+.testimonialtext{
+    background-color: yellow;
+    margin-right: 10px;
+    padding: 30px;
+    margin-bottom: 10px;
+}
+
+
+
+/* testimonial Part end */
+/* ===================================================== */
+
+
+
+/* div or button hide and show fadein fadeout start */
+
+                /* hide and show start........ */
+#six{
+    padding: 50px 0;
+    background: thistle;
+    
+}
+.six{
+    background: tomato;
+    margin-top: 30px;
+    height: 200px;
+}
+
+button{
+    padding: 20px 50px;
+    background: #00ff66;
+}
+
+button:hover{
+    background-color: violet;
+    transition: 0.8s;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    background: #6137b5;
+    margin-top: 40px;
+}
+                     /* hide and show end........ */
+/* fade in fade out css start ..............*/
+
+button{
+    padding: 20px 50px;
+    background: #00ff66;
+}
+
+button:hover{
+    background-color: violet;
+    transition: 0.8s;
+}
+.boxx{
+    height: 100px;
+    width: 100px;
+    background: #6137b5;
+    margin-top: 40px;
+}
+         /* fadein fade out css end................ */
+/* div or button hide and show fadein fadeout end */
+/* =============================================== */
+
+/* buttton slide up down  pat start */
+
+#slideupin{
+    height: 300px;
+    background: rgb(165, 174, 167);
+}
+
+button{
+    padding: 20px 50px;
+    background: #00ff66;
+}
+
+button:hover{
+    background-color: violet;
+    transition: 0.8s;
+}
+.slidebox{
+    height: 100px;
+    width: 100px;
+    background: #ff5900;
+    margin-top: 40px;
+}
+/* buttton slide up down pat end */
+/* ======================================================= */
+
+/* js file addclass remove "call only css class" part start */
+              /* only class part not html class  */
+.onlycssclass{
+    height: 100px;
+    width: 100px;
+    background: #0115f0;
+    margin-top: 40px;
+}
+                   /* only class part not html class  */
+/* js file addclass remove "call only css class" part end */
