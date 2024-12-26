@@ -160,6 +160,8 @@ $('.counter').counterUp({
 
 // Automation number count part end
 
+// ====================================
+
 // countdown my birtday or lottery time start 
 
 (function () {
@@ -207,3 +209,23 @@ $('.counter').counterUp({
   }());
 
 // countdown my birtday or lottery time  end
+
+// =============================================
+
+
+// venu box js file start
+
+$(function(){
+new VenoBox({
+  selector: '.my-image-links',
+  numeration: true,
+  infinigall: true,
+  share: true,
+  spinner: 'rotating-plane'
+});
+
+})
+
+// venu box js file end
+
+// =======================================

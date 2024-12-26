@@ -314,3 +314,20 @@ button:hover{
     font-size: 30px;
 }
 /* Automation number count part end */
+
+/* ======================== */
+
+/* litebox image file start */
+.liteimg img{
+width: 100%;
+}
+/* litebox image file end */
+/* ================================== */
+
+
+/* venubox css start */
+.imgs img{
+    width: 100%;
+}
+/* venubox css end */
+/* ================================== */
