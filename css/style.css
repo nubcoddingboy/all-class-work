@@ -325,9 +325,134 @@ width: 100%;
 /* ================================== */
 
 
-/* venubox css start */
+/* venubox img css start */
+
+
 .imgs img{
     width: 100%;
 }
 /* venubox css end */
 /* ================================== */
+
+/* video Play venubox part Start */
+#videoplay{
+    margin-top: 50px;
+    background: url(../images/pexels-aaronsvd-12544.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.overly{
+    background-color: rgba(0, 0, 0, 0.41);
+    padding: 200px 0;
+}
+
+.play i{
+    font-size: 50px;
+    color: greenyellow;
+}
+/* video Play venubox part end */
+
+/* ====================================== */
+
+/* typed js part auto writing start */
+.type{
+    margin-top: 50px;
+    padding: 30px 0;
+}
+.typedjs{
+    background-color: #00ff66;
+}
+
+.typedjs h1,h2{
+padding: 30px 0;
+}
+/* typed js part auto writing end */
+
+/* slick slider image css part start */
+.sliders{
+  margin: 80px 0;
+}
+
+.mainslider{
+  
+    background: url(../images/Image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.overly{
+    padding: 250px 0;
+    background-color: rgba(0, 0, 0, 0.378);
+}
+
+.one{
+    
+    background: url(../images/image\ 1\ \(Traced\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.two{
+    
+    background: url(../images/next.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.three{
+    
+    background: url(../images/PXL_20241208_112902856.RAW-01.COVER[1].jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.foure{
+    
+    background: url(../images/Group\ 5334.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* added must me left right button class js icon line */
+
+
+.preve{
+    color: #00ff66;
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    z-index: 999;
+}
+.next{
+    color: #00ff66;
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+
+.slick-dots{
+    display: flex;
+    justify-content: center;
+}
+
+/* added must me left right button class js icon line */
+
+
+
+/* slick slider image css part end */
+
+
+/* image gallary slick slider part start */
+
+
+/* image gallary slick slider part end */

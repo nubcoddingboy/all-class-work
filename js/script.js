@@ -54,10 +54,39 @@ $(function(){
       $(".box").toggle(1000)
     })
     //  hide show code button end
-})
+
+    // ===================================
+
+// videoplay venubox part start
+    $(function(){
+      new VenoBox({
+        selector: '.my-video-links',
+      });
+   })
+      // videoplay venubox part end
+
+
+      // venu box img js file start
+
+$(function(){
+  new VenoBox({
+    selector: '.my-image-links',
+    numeration: true,
+    infinigall: true,
+    share: true,
+    spinner: 'rotating-plane'
+  });
+  
+  })
+  
+  // venu box js file end
+
+
+  })
 // =================================================
 
 // button clickable fadein fadeout start
+
 $(function(){
   
   
@@ -156,7 +185,12 @@ $('.counter').counterUp({
 });
 
 
-})
+
+
+
+
+
+
 
 // Automation number count part end
 
@@ -211,21 +245,37 @@ $('.counter').counterUp({
 // countdown my birtday or lottery time  end
 
 // =============================================
-
-
-// venu box js file start
-
-$(function(){
-new VenoBox({
-  selector: '.my-image-links',
-  numeration: true,
-  infinigall: true,
-  share: true,
-  spinner: 'rotating-plane'
+// typed js part start
+new Typed('#typed',{
+  strings : ['Developer','Designer'],
+  typeSpeed : 40,
+  delaySpeed : 90,
+  loop : true
 });
+// typed js part end
+
+
+// Aos animated scrolling js file link start
+AOS.init({
+  duration: 500,
+});
+// Aos animated scrolling js file link end
+
 
 })
 
-// venu box js file end
-
 // =======================================
+// slick slider image js part start
+$('.sliders').slick({
+  slidesToShow: 3,
+  slidesToScroll: 2,
+  autoplay: true,
+  autoplaySpeed: 500,
+  arrows: true, 
+  dots: true,
+        // added must me left right button class js icon line
+  nextArrow:'<i class="fa-solid fa-arrow-right next"></i>',
+  prevArrow:'<i class="fa-solid fa-arrow-left preve"></i>' ,
+	
+});
+// slick slider image js part end

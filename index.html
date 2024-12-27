@@ -16,6 +16,10 @@
 <link rel="stylesheet" href="css/lightbox.min.css">
                        <!-- venubox image file link -->
 <link rel="stylesheet" href="css/venobox.min.css">
+                        <!-- Aos animated scrolling css file link -->
+<link rel="stylesheet" href="css/aos.css">
+                        <!-- slick slider image css link -->
+<link rel="stylesheet" href="css/slick.css">
                       <!-- main css file link -->
 <link rel="stylesheet" href="css/style.css">
                       <!-- responsive media quary link css -->
@@ -171,7 +175,16 @@
  <section id="four">
     <div class="container">
         <div class="row">
-            <div class="col-lg-4 work">
+            <div class="col-lg-4 work" data-aos="fade-right">
+                <div class="workimg">
+                    <img src="images/Image.png" alt="">
+                </div>
+                <div class="workText">
+                    <h5>Butiful Work</h5>
+                    <p>Created By Emon</p>
+                </div>
+            </div>
+            <div class="col-lg-4 work" data-aos="fade-up-left">
                 <div class="workimg">
                     <img src="images/Image.png" alt="">
                 </div>
@@ -189,16 +202,7 @@
                     <p>Created By Emon</p>
                 </div>
             </div>
-            <div class="col-lg-4 work">
-                <div class="workimg">
-                    <img src="images/Image.png" alt="">
-                </div>
-                <div class="workText">
-                    <h5>Butiful Work</h5>
-                    <p>Created By Emon</p>
-                </div>
-            </div>
-            <div class="col-lg-4 work">
+            <div class="col-lg-4 work" data-aos="fade-down-left">
                 <div class="workimg">
                     <img src="images/Image.png" alt="">
                 </div>
@@ -234,7 +238,9 @@
 
 
 <!-- testimonial Part start -->
-<div id="five">
+                     <!-- Aos Animated scrolling -->
+<div id="five" data-aos="fade-down-left">
+                    <!-- Aos Animated scrolling -->
     <div class="container">
         <div class="testimonial">
             <div class="testimonialtext">
@@ -374,8 +380,9 @@
 <!-- ===================================================== -->
 
 <!-- div or button hide and show fadein fadeout start -->
-
-<section id="six">
+              <!-- Aos Animated scrolling start -->
+<section id="six" data-aos="flip-right">
+              <!-- Aos Animated scrolling end-->
 
     
     <div class="container">
@@ -396,7 +403,7 @@
           <!-- clickable button fadeIn Fade Out start -->
         <div class="row">'
             <h2>Fadein Fade out</h2>
-            <div class="col-lg-12 six">
+            <div class="col-lg-12 six" data-aos="flip-up">
                 <button id="fadein"> FadeIn</button>
                 <button id="fadeout">f
                     adeout</button>
@@ -415,8 +422,9 @@
 
 
 <!-- clickable button slied up down part start -->
-
-<div id="slideupin">
+                <!-- Aos Animated scrolling start-->
+<div id="slideupin" data-aos="zoom-out-up">
+                 <!-- Aos Animated scrolling end -->
     <div class="container">
         <H2>Slide Up Down Part</H2>
         <button id="slideUp"> SlideUp</button>
@@ -561,7 +569,7 @@
  <!-- ============================================ -->
 
  <!-- venu box image part start -->
-
+<div class="venu" data-aos="fade-up">
  <div class="container">
 
     <h2 style="padding: 20px 0; text-align: center;">Venu box Image</h2>
@@ -608,8 +616,82 @@
        
     </div>
  </div>
+</div>
  <!-- venu box image part end -->
 <!-- ======================================= -->
+
+<!-- video play venubox  part start -->
+ <section id="videoplay">
+    <h2 style="color: aliceblue; text-align: center;">VenuBox Video Part</h2>
+    <div class="overly">
+       <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="play m-auto text-center">
+
+
+                    <a class="my-video-links" data-autoplay="true" data-vbtype="video" href="https://youtu.be/WWXm39leYew"> <i class="fa-regular fa-circle-play"></i></a>
+                   
+                </div>
+            </div>
+        </div>
+       </div>
+    </div>
+ </section>
+<!-- video play venubox part end -->
+<!-- ================================ -->
+
+<!-- typed js auto writing html start -->
+<div class="type">
+<div class="container ">
+    <div>
+        <div class="typedjs m-auto text-center">
+            <h1>Typed Js Part</h1>
+            <h2>I'm <span id="typed"></span></h2>
+        </div>
+      </div>
+</div>
+</div>
+<!-- typed js auto writing html end -->
+
+<!-- ======================================== -->
+
+<!-- slick slider image part start -->
+ <div class="container"">
+    <h2>Slick slider / Image Slider Auto Play</h2>
+    <div class="sliders">
+        <div class="mainslider">
+            <div class="overly"></div>
+        </div>
+      
+        <div class="mainslider one">
+            <div class="overly"></div>
+        </div>
+        <div class="mainslider two">
+            <div class="overly"></div>
+        </div>
+        <div class="mainslider three ">
+            <div class="overly"></div>
+        </div>
+        <div class="mainslider four">
+            <div class="overly"></div>
+        </div>
+    </div>
+ </div>
+<!-- slick slider image part end -->
+
+
+<!-- image gallery slick slider part start -->
+
+<!-- image gallery slick slider part end -->
+
+
+
+
+
+
+
+
 
 
 
@@ -633,6 +715,17 @@
  <script src="js/lightbox.min.js"></script>            
            <!-- venubox imgage file -->
  <script src="js/venobox.min.js"></script>
+
+         <!-- typed js cdn link -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.8/typed.min.js"></script>
+
+            <!-- Aos animated scrolling link js file  -->
+ <script src="js/aos.js"></script>
+             <!-- slick slider image js link -->
+              <script src="js/slick.min.js"></script>
+
+
+
            <!-- main js file link -->
 <script src="js/script.js"></script>
     <!-- All type js file link end  -->
